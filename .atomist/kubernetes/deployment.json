@@ -1,0 +1,17 @@
+{
+  "spec": {
+    "template": {
+      "spec": {
+        "containers": [
+          {
+            "securityContext": {
+              "allowPrivilegeEscalation": false,
+              "runAsNonRoot": true,
+              "runAsUser": 1000
+            }
+          }
+        ]
+      }
+    }
+  }
+}
